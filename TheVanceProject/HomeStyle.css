@@ -1,0 +1,118 @@
+.navbar-nav {
+    margin-right: 700px;
+}
+
+.navbar-brand {
+    font-family: 'Permanent Marker', cursive;
+}
+
+#glass {
+    width: 20px;
+    height: 20px;
+}
+
+.jumbotron {
+    height: 600px;
+    background-image: url("img/Placeholderimg3.jpg");
+    background-size: 1400px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+
+.display-4 {
+    margin-top: 80px;
+}
+
+.lead {
+    font-size: 18px;
+}
+
+.jumbotron {
+ padding: 0px;   
+}
+
+.jumbotronText {
+    font-family: 'Jomolhari', serif;
+    color: white;
+}
+
+.HomeContent {
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+
+.ContentTitle {
+    color: rgb(153, 159, 154);
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 300px;
+}
+
+.card-img-top {
+    height: 150px;
+}
+
+.card-body {
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+
+#footer {
+    border-top: 1px rgb(153, 159, 154) solid;
+    background-color: white;
+    color: white;
+    height: auto;
+}
+
+#footerBrand {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 15px;
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#footerText {
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    font-size: 10px;
+    color: black;
+}
+
+#instagram {
+    width: 20px;
+    height: 20px;
+    float: right;
+    position: relative;
+    bottom: 60px;
+    margin-right: 20px;
+}
+
+#facebook {
+    width: 20px;
+    height: 20px;
+    float: right;
+    position: relative;
+    bottom: 60px;
+    margin-right: 40px;
+}
+
+#twitter {
+    width: 20px;
+    height: 20px;
+    float: right;
+    position: relative;
+    bottom: 60px;
+    margin-right: 50px;
+}
+
+
+
+
+
+
