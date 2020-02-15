@@ -1,0 +1,11 @@
+.imgTest {
+    width: 300px;
+    height: 300px;
+    margin-left: 15px;;
+}
+
+.big {
+    font-size: 100px;
+    color: orange;
+    border: 5px solid red;
+}

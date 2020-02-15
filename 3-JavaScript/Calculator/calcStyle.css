@@ -1,0 +1,46 @@
+body{
+    background-color: aqua;
+}
+
+.calc{
+    margin-top: 10%;
+    margin-left: 35%;
+    border: 10px solid aquamarine;
+    width: 320px;
+}
+
+input{
+    position: relative;
+    left: 30%;
+}
+.key {
+    margin-right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 320px;
+}
+a {
+    background: #4CAF50;
+    padding: 1em 2.4em;
+    font-size: .9em;
+    margin: 1em;
+    color: white;
+    text-decoration: none;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0 9px #999;
+}
+
+a:hover{
+    background-color: #3e8e41;
+}
+
+a:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  

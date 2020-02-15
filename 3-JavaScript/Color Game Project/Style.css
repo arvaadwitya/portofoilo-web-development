@@ -1,0 +1,92 @@
+body {
+    background-color: #232323;
+    margin: 0px;
+}
+
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 10%;
+    transition: all 0.5s;
+}
+
+#header {
+    font-size: 20px;
+    text-align: center;
+    height: 150px;
+    background-color: rgb(36, 103, 228);
+    transition: all 0.5s;
+}
+
+#secondHeader {
+    margin-bottom: 50px;
+    height: 30px;
+    background-color: white;
+}
+
+#message {
+    margin-left: 50px;
+    font-size: 25px;
+    padding-right: 0%;
+    color: black;
+}
+
+#tryAgain {
+    width: 150px;
+    height: 30px;
+    border-style: none;
+    margin-left: 90px; 
+    font-size: 25px;
+    color: black;
+    background-color: white;
+    position: relative;
+    transition: all 0.3s;
+}
+
+#easy {
+    width: 80px;
+    height: 30px;
+    border-style: none;
+    font-size: 25px;
+    color: black;
+    background-color: white;
+    position: relative;
+    left: 200px;
+    transition: all 0.3s;
+}
+
+#hard {
+    width: 80px;
+    height: 30px;
+    border-style: none;
+    font-size: 25px;
+    color: black;
+    background-color: white;
+    position: relative;
+    left: 210px;
+    transition: all 0.3s;
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+#box {
+    width: 200px;
+    position: relative;
+    left: 250px;
+    bottom: 29px;
+}
+
+h1 {
+    color: white;
+    display: contents;
+}
+
+span {
+    color: white;
+}

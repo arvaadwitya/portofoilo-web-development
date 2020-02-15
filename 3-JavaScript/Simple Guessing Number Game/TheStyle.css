@@ -1,0 +1,56 @@
+         body {
+             background-color: aquamarine;
+             background-image: url("https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/223/thinking-face_1f914.png");
+             background-size: 100px;
+             background-repeat: space;
+         }
+         
+         
+         
+        #game {
+            background: rgb(14, 216, 247,0.8);
+            margin-left: 250px; 
+            border: 10px solid lightgrey;
+            border-radius: 20%;
+            width: 800px;
+            height: 1000px;
+           
+        }
+        #input {
+            padding-left: 300px;
+            padding-top: 100px;
+            
+            
+        }
+        #number {
+            width: 200px;
+            height: 100px;
+            border: 20px dashed gray;
+            
+        }
+
+        #result {
+            background: white;
+            width: 400px;
+            height: 200px;
+            border: 20px solid gray;
+            margin-top: 100px;
+            margin-left: 200px;
+        }
+
+        p {
+            text-align: center;
+            line-height: 0px;
+        }
+
+        input {
+            font-size: 50px;
+            text-align: center;
+        }
+
+        button {
+            background-color: cornflowerblue;
+            width: 100px;
+            height: 100px;
+            margin-left: 50px;
+        }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arrays</title>
+    </head>
+    <body>
+            <h1>What is the magic word?</h1>
+            <input type="text" id="Magic">
+            <button id="button">Submit</button>
+            <div id="tweets">
+
+            </div>
+            <script>
+                var myArray = new Array();
+
+                myArray[0] = "Pizza";
+                
+                myArray[1] = "Chocolate";
+
+                var tweets = ["Morning, everybody!", "I love coffee!"];
+
+                tweets.push("Back to work!");
+
+                console.log(myArray.length);
+                console.log(tweets);
+
+                tweets.splice(1, 1); //delete 1 array start from one
+
+                console.log(tweets);
+
+                //if statements
+                document.getElementById("button").onclick = function(){
+                    if (document.getElementById("Magic").value == "Tequila"){
+                        console.log("You Right!");
+                    }
+                    else {
+                        console.log("Wrong!");
+                    }
+                }
+
+                //loops statements
+                var tweetString = "";
+                var i = 0;
+                while(i < tweets.length){
+                    tweetString = tweetString + "<p>" + tweets[i] + "</p>";
+                    i++;
+                }
+                document.getElementById("tweets").innerHTML = tweetString;
+
+                //functions
+                function man(x,y){
+                    return (x + y) / 2;
+                }
+                console.log("a = " + man(1,3));
+
+            </script>    
+    </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+
+    <body>
+        <h1>Javascript practice</h1>
+
+        <p id="text">Hello World!</p>
+
+        <button id="myButton">Click me!</button>
+
+        <p id="text2">Javascript is...</p>
+
+        <button id="myButton2">Click me!</button>
+
+        <p id="text3">Change color to red!</p>
+
+        <button id="style">Change Color!</button>
+        <button id="style2">Change font size!</button>
+        <button id="style3">Change font weight!</button>
+
+        <script type="text/javascript" >
+            console.log("Connected!");
+            
+            document.getElementById("myButton").onclick = function() {
+                document.getElementById("text").innerHTML = "Hello Vance!";
+            }
+
+            document.getElementById("myButton2").onclick = function() {
+                document.getElementById("text2").innerHTML = "Javascript is awesome!";
+            }
+
+            document.getElementById("style").onclick = function() {
+                document.getElementById("text3").style.color = "red";
+            }
+
+            document.getElementById("style2").onclick = function() {
+                document.getElementById("text3").style.fontSize = "50px";
+            }
+
+            document.getElementById("style3").onclick = function() {
+                document.getElementById("text3").style.fontWeight = "bold";
+            }
+
+
+
+
+
+        </script>
+    </body>
+</html>
